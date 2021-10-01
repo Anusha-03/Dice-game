@@ -1,0 +1,9 @@
+1. Always put external js at the bottom just before the closing body tag whereas the external css at the bottom just before the closing head tag.
+2. It is better to you use let rather than var for declaring variables.
+3. const is used for constant and its value can never be changed unlike let.
+4. querySelector() is used to select a given id/class from the html document
+5. classList() is used to access the list of classes associated with the query selected
+6. classList.add() is used to add a class to the classList, .remove() to remove and .toggle() to add if not there already or remove if the class is there.
+7. .attributs displays the attributes in the query selected while getAttributes gets 1 particular attribute
+8. setAttributes changes the attribute: document.querySelector('').setAttribute('attribute name(eg- href)','changed attribute(eg- google.com))');
+9.  
